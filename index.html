@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Vegana</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Builder Brothers PIZZA</h1>
+    </header> 
+    <div >
+        <ul id="menu"> 
+            <li><a href="paginas/quemsomos.html" target="_self" rel="next">Quem somos?</a></li>
+        </ul>
+    </div>
+    <section id="fundo">
+    <div>
+        <h2>Deixe-me pegar seu pedido!</h2>
+        <img src="pedidos.PNG" alt="fotos">
+    </div>
+
+    <div id="pedido">
+        <p>
+        <input type="radio" name="txtpizza" id="pq" checked>
+        <label for="pq">Pizza de queijo</label>
+        <input type="radio" name="txtpizza" id="pp">
+        <label for="pp">Pizza de peperoni</label>
+        <input type="radio" name="txtpizza" id="rf">
+        <label for="rf">Refrigerante</label>
+        <input type="radio" name="txtpizza" id="pc">
+        <label for="pc">Pizza de carne</label>
+        </p>
+    </div>
+ 
+    <!--<div>
+        <label>Casa</label>
+        <select id="casa">
+            <option selected disable value>Escolha uma casa</option>
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="A3">A3</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="B3">B3</option>
+            <option value="B4">B4</option>
+            <option value="B5">B5</option>
+            <option value="B6">B6</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+            <option value="C3">C3</option>
+        </select>
+    </div> /-->
+ 
+    <div id="comprar">
+        <input id="botao" type="button" value="Comprar" onclick="calcular()"> 
+    </div>
+    </section>
+    <footer>
+        <p>&copy;BuildeBrothersPIZZA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
