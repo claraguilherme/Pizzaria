@@ -1,8 +1,3 @@
-var agora = new Date()
-var hora = agora.getHours()
-var minuto = agora.getMinutes()
-var horário = `${hora}:${minuto}`
-
 var pizza = document.getElementsByName('txtpizza')
 var fundo = document.getElementById('fundo')
 
@@ -14,6 +9,11 @@ pago.addEventListener('click', calcular)*/
 
 
 function calcular(){
+    var agora = new Date()
+    var hora = agora.getHours()
+    var minuto = agora.getMinutes()
+    var horário = `${hora}:${minuto}`
+    
     var casa = document.getElementById('casa')
     if (pizza[0].checked) {
     res = 30
