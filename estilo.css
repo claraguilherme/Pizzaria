@@ -58,11 +58,18 @@ footer {
     text-align: center;
 }
 
-/*#produtos > #listaprodutos {
+.menu {
+    display: inline-block;
+}
+
+.menu > div {
     display: none;
-    background-color: #0c3f22e8;
+}
+
+.menu:hover > div {
+    display: block;
     font: normal normal 1.5em;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
-}*/
+}
 
