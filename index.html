@@ -12,28 +12,22 @@
     <header>
         <h1>Builder Brothers PIZZA</h1>
     </header> 
-    <div id="menu">
+    <nav id="menu">
         <div id="#produtos" class="menu">
             <a href="paginas/produtos.html" >Produtos</a>
-            <div>
-                <ul>
-                    <li>Pizzas</li>
-                    <li>Refrigerantes</li>
-                </ul>
-            </div>
         </div>
         |
         <div class="menu">
-            <a href="paginas/quemsomos.html" target="_self" rel="next"><span>Quem somos?</span></a>
+            <a href="paginas/quemsomos.html" target="_self" rel="next">Quem somos?</a>
         </div>        
-    </div>
+    </nav>
 
-    <section id="fundo">
-    <div>
+
+    <main id="fundo" class="lugar">
+    <section>
         <h2 id="pegarpedido">Deixe-me pegar seu pedido!</h2>
         <img src="pedidos.PNG" alt="fotos">
-    </div>
-
+    </section>
     <div id="pedido">
         <p>
         <input type="radio" name="txtpizza" id="pq" checked>
@@ -45,9 +39,9 @@
         <input type="radio" name="txtpizza" id="rf">
         <label for="rf">Refrigerante</label>
         </p>
-    </div>
+    </section>
  
-    <!--<div>
+    <!--<section>
         <label>Casa</label>
         <select id="casa">
             <option selected disable value>Escolha uma casa</option>
@@ -64,12 +58,25 @@
             <option value="C2">C2</option>
             <option value="C3">C3</option>
         </select>
-    </div> /-->
+    </section> /-->
  
-    <div id="comprar">
+    <section id="comprar">
         <input id="botao" type="button" value="Comprar" onclick="calcular()"> 
-    </div>
     </section>
+    </main>
+
+    <section id="outpro" class="lugar" >
+        <div>
+            <h3>Outros produtos</h3>
+            <a href="#" class="passe">
+                <img src="imagem-passes/garage.png" alt="Foto passe garagem"> Garage
+            </a>
+            <a href="#" class="passe">
+                <img src="imagem-passes/vip.png" alt="Foto passe vip"> VIP
+            </a>
+        </div>
+    </section>
+
     <footer>
         <p>&copy;BuildeBrothersPIZZA</p>
     </footer>

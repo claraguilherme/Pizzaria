@@ -25,16 +25,18 @@ header {
     font: normal normal 2em "Paytone one";
 }
 
-section { 
+main { 
     background-color: #ad1527;
     color: #edfffe;
     font: normal normal 2em Arial;
     margin: auto;
-    width: 30em;
+    width: 35em;
     padding: 5px;
-    border-radius: 45px;
+    border-radius: 0px 50px 50px 50px;
     text-align: center;
+    box-shadow: 30px 29px 13px #35050b5e;
 }
+
 input#botao {
     font: normal 20pt Arial;
     background-color: rgb(10, 71, 34);
@@ -51,25 +53,49 @@ footer {
     color: #52009E;
     background-color: #E5EB00;
     font: normal bold 2em 'Work Sans';
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+    border-radius: 1em;
     text-align: center;
+    margin-inline: auto;
+    margin-bottom: 0.5em;
+    width: 30em;
+    box-shadow: 7px 7px 7px #0c3d2170;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+#menu > a {
+    text-decoration: none;
 }
 
 .menu {
     display: inline-block;
 }
 
-.menu > div {
-    display: none;
+#qs {
+    font: normal normal 1.8em 'Paytone One';
 }
 
-.menu:hover > div {
-    display: block;
-    font: normal normal 1.5em;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+#outpro {
+    background-color: #ad1527;
+    color: #edfffe;
+    font: normal normal 2em Arial;
+    text-align: center;
+    
+    width: 11em;
+    height: 11em;
+    padding: 0.1em;
+
+    border-radius: 0px 50px 50px 50px;
+    box-shadow: 30px 29px 13px #35050b5e;
+}
+
+.passe {
+    text-decoration: none;    
+}
+
+.passe:hover {
+    text-decoration: underline;
 }
 
