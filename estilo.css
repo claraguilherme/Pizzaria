@@ -103,3 +103,10 @@ footer {
     text-decoration: underline;
 }
 
+.cartão {
+    background-color: #638672;
+    margin: 0.7em;
+    padding: 0.1em;
+    border-radius: 9%;
+}
+
