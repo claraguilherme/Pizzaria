@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+/*
+#F21D2F
+#20732D
+#F2CD13
+#F2811D
+#A05620
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --corvml: #F21D2F;
+    --corvrd: #20732D;
+    --coraml: #F2CD13;
+    --corlacl: #F2811D;
+    --corbg: #F2C8A2;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Seymour One', cursive;
+}
+
+body {
+    background-color: var(--corvrd);
+}
+
+header > h1 {
+    background-color: var(--corbg);
+}
